@@ -16,7 +16,7 @@ public class CompanyTest {
 
         System.out.println(company1);
         System.out.println(company2);
-        System.out.println("Company 1 is = " + company1.getName() + " and Company 2 is = " + company2.getName());
+        System.out.println("Company 1 is = \"" + company1.getName() + "\" and Company 2 is = \"" + company2.getName() + "\"");
 
     }
 }
