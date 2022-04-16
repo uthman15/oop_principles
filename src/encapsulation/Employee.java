@@ -23,7 +23,7 @@ public class Employee {
     private String fullName;
     private int age;
     private String address;
-    private int phone;
+    private String phone;
 
     public static int getTotalEmployees() {
         return totalEmployees;
@@ -53,11 +53,11 @@ public class Employee {
         this.address = address;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
