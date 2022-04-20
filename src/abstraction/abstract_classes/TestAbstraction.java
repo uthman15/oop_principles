@@ -43,6 +43,17 @@ public class TestAbstraction {
         }
 
         System.out.println(countConvertibles);
-        System.out.println("The most expensive phone is = " + mostExpensivePhone);
+        System.out.println("The most expensive phone is = " + mostExpensivePhone.getClass().getSimpleName());
+        System.out.println("The color of the most expensive phone is = " + mostExpensivePhone.color);
+
+        System.out.println(Iphone.OS);
+        System.out.println(Samsung.OS);
+        System.out.println(Nokia.OS);
+
+        for (Phone phone : phones) {
+            phone.ring();
+            phone.call();
+            phone.text();
+        }
     }
 }
